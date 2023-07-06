@@ -1,0 +1,114 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: #383B48 ;
+}
+/* HEADER */
+header{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding: 20px 10px;
+    font-size: 15px;
+    border-bottom-style: solid;
+    border-color: rgba(0, 0, 0, 0.103);
+    border-width: 1px;
+    position: fixed;
+    width: 100%;
+    text-decoration: none;
+}
+header > h2{
+    font-size: 18px;
+}
+header > nav{
+    display: none;
+}
+/* MAIN */
+main{
+    padding: 3px;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 97%;
+}
+h1{
+    padding: 92px 0px 10px 5px;
+}
+main > p{
+    padding: 30px 0px 30px 5px;
+    font-size: 1.2em;
+}
+.container{
+    display: flex;
+    font-size: 1.3em;
+    padding: 0px 0px 20px 0px;
+}
+.container > strong{
+
+    padding: 0px 0px 0px 5px;
+}
+#price{
+    padding: 0px 0px 20px 5px;
+}
+/* BOTÃO */
+#guarda-botao{
+    background-color: rgb(255, 255, 255);
+text-align: center;
+padding: 20px 30px;
+
+justify-content: center;
+position: fixed;
+top: 85%;
+width: 100%;
+box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.096);
+    
+}
+button{
+    width: 80vw;
+    padding: 20px 30px;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEEF87;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button > img{
+    width: 10%;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #ffdd00;
+    box-shadow: 0px 1px 9px 2px rgba(0, 0, 0, 0.123);
+}
+button:active{
+    cursor: pointer;
+    background-color: #ffdd00;
+    box-shadow: 0px 1px 9px 2px rgba(0, 0, 0, 0.123);
+}
+/* FOOTER */
+footer{
+    background-image: url(../img/background.webp);
+    background-position: 86% 81%;
+    padding: 20px 50px 121px 50px;
+    text-align: center;
+}
+footer > p{
+    line-height: 30px;
+}
+footer > p > a{
+    text-decoration: none;
+    color: rgb(89, 94, 116);
+}
+footer > p > a:hover{
+    color: rgb(166, 198, 255);
+}

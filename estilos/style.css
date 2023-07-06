@@ -85,6 +85,10 @@ header > nav{
     
     padding-bottom: 20px;
 }
+#bloco2 > a{
+    text-decoration: none;
+    color: #383B48 ;
+}
 .caixa{
     text-align: center;
     padding: 6px;
@@ -97,9 +101,11 @@ header > nav{
 }
 .caixa > h4{
     padding: 10px 0px 5px 0px;
+    
 }
-#bloco2 > .caixa > img{
+#bloco2 > a >.caixa > img{
     width: 166px;
+    
 }
 #bloco2 > button{
     font-size: 1.4em;
