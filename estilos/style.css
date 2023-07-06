@@ -45,7 +45,7 @@ header > nav{
     font-size: 27px;
     padding: 40px 0px 0px 10px;
 }
-#bloco1 > h1{
+#bloco1 > #side1 > h1{
     width: 75%;
     
 }
@@ -55,9 +55,8 @@ header > nav{
     border-radius: 10px;
     margin: 15px 0px;
 }
-#bloco1 > p{
+#bloco1 > #side1 > p{
     
-    font-size: 20px;
 }
 .button{
     padding: 15px 30px;
@@ -67,7 +66,7 @@ header > nav{
     background-color: #FEEF87;
     font-weight: normal;
 }
-#bloco1 > button{
+#bloco1 > #side1 > button{
     margin: 20px 0px;
     font-size: 0.8em;
 }
