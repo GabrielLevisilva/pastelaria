@@ -29,6 +29,10 @@
         border-bottom: solid black 2px;
         color: black;
     }
+    .area:hover{
+        border-bottom: solid black 2px;
+        color: black;
+    }
     a#car{
         padding-left: 10px;
         border-left: solid rgba(0, 0, 0, 0.253) 1px;
