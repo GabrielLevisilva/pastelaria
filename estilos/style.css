@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+img{
+    /* width: 300px; */
+}
+/* HEADER */
+header{
+    
+    padding: 20px 10px;
+}
+header > h2{
+    font-size: 18px;
+}
+header > nav{
+    display: none;
+}
+/* botão animação */
+.button:hover{
+    cursor: pointer;
+    background-color: #ffde08;
+    box-shadow: 0px 1px 9px 2px rgba(0, 0, 0, 0.123);
+
+}
+/* BLOCO 1 */
+#bloco1{
+    background-image: url(../img/background.webp);
+    background-position: 50% 50%;
+    font-size: 27px;
+    padding: 40px 0px 0px 10px;
+}
+#bloco1 > h1{
+    width: 75%;
+    color: #383B48 ;
+}
+#linha{
+    border-top: solid rgb(255, 255, 171);
+    width: 70px;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+#bloco1 > p{
+    color: #4a4c53;
+    font-size: 20px;
+}
+.button{
+    padding: 15px 30px;
+    transition: 0.5s;
+    border: none;
+    border-radius: 5px;
+    background-color: #FEEF87;
+    font-weight: normal;
+}
+#bloco1 > button{
+    margin: 20px 0px;
+    font-size: 0.8em;
+}
+#bloco1 > img{
+    margin: 30px 0px 10px 5px;
+    width: 100%;
+}
+
+/* BLOCO 2 */
+#bloco2{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #4a4c53;
+    padding-bottom: 20px;
+}
+.caixa{
+    text-align: center;
+    padding: 6px;
+    margin-top: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.caixa:hover{
+    box-shadow: 0px 1px 9px 2px rgba(0, 0, 0, 0.123);
+}
+.caixa > h4{
+    padding: 10px 0px 5px 0px;
+}
+#bloco2 > .caixa > img{
+    width: 166px;
+}
+#bloco2 > button{
+    font-size: 1.4em;
+    width: 100%;
+    margin: 10px 10px;
+}
