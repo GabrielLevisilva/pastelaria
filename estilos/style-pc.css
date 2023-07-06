@@ -84,6 +84,10 @@
         margin-top: 40px;
         width: 30%;
     }
+    #bloco2 > button:active{
+        background-color: #fff8cd;
+        transition: 0s;
+    }
     /* BLOCO 3 */
     #bloco3{
         display: flex;
