@@ -22,6 +22,11 @@ header{
 header > h2{
     font-size: 18px;
 }
+header > h2 > a{
+    text-decoration: none;
+    color: #383B48;
+    cursor: pointer;
+}
 header > nav{
     display: none;
 }
