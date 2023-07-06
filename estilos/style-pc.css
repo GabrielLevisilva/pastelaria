@@ -1,6 +1,6 @@
 @media screen and (min-width: 992px){ /*Tela Grande*/
     header{
-        background: none;
+        background-image: none ;
         justify-content: space-around;
         align-items: center;
     }
